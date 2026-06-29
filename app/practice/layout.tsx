@@ -16,8 +16,9 @@ export default function PracticeLayout({ children }: { children: React.ReactNode
         <Link href="/practice/tier-1-js/expiry-check">7. Expiry check</Link>
         <strong>Tier 2 — Context</strong>
         <Link href="/practice/tier-2-context/theme-demo">8. Theme</Link>
-         <Link href="/practice/tier-2-context/language-demo">8a. Theme</Link>
+         <Link href="/practice/tier-2-context/language-demo">8b. Theme</Link>
         <Link href="/practice/tier-2-context/cart-demo">9. Cart</Link>
+        <Link href="/practice/tier-2-context/notifications-demo">9b. Cart</Link>
         <Link href="/practice/tier-2-context/auth-demo">10. Auth demo</Link>
       </nav>
       <main style={{ flex: 1 }}>{children}</main>
